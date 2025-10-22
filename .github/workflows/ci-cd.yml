@@ -2,9 +2,9 @@ name: DevSecOps CI/CD Pipeline to Azure
  
 on:
   push:
-    branches: ["master"]
+    branches: ["name"]
   pull_request:
-    branches: ["master"]
+    branches: ["name"]
  
 jobs:
   Build_and_Scan:
